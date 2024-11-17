@@ -1,12 +1,14 @@
 package main
 
 import (
+	"net/http"
+
 	"github.com/99designs/gqlgen/graphql/handler"
 	"github.com/99designs/gqlgen/graphql/playground"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
-	"github.com/t-winter/community-quiz-backend/graph"
-	"net/http"
+
+	"github.com/t-winter/crowd-quiz-backend/graph"
 )
 
 func main() {

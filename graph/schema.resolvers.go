@@ -8,7 +8,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/t-winter/community-quiz-backend/graph/model"
+	"github.com/t-winter/crowd-quiz-backend/graph/model"
 )
 
 // CreateTodo is the resolver for the createTodo field.
